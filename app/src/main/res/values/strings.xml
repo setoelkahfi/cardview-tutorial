@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Card View</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favorite">Add to Favorite</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+    <string name="album_thumbnail">Album thumbnail</string>
+    <string name="dot_icon">dot icon</string>
+    <string name="backdrop_image">backdrop image</string>
+</resources>
