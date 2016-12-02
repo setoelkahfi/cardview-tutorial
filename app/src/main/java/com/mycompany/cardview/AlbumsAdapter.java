@@ -18,12 +18,12 @@ import java.util.List;
 import java.util.Locale;
 
 
-public class AlbumsAdapter extends RecyclerView.Adapter<AlbumsAdapter.MyViewHolder> {
+class AlbumsAdapter extends RecyclerView.Adapter<AlbumsAdapter.MyViewHolder> {
 
     private Context mContext;
     private List<Album> mAlbumList;
 
-    public AlbumsAdapter(Context mContext, List<Album> mAlbumList) {
+    AlbumsAdapter(Context mContext, List<Album> mAlbumList) {
         this.mContext = mContext;
         this.mAlbumList = mAlbumList;
     }
@@ -80,12 +80,12 @@ public class AlbumsAdapter extends RecyclerView.Adapter<AlbumsAdapter.MyViewHold
         return mAlbumList.size();
     }
 
-    public class MyViewHolder extends RecyclerView.ViewHolder {
+    class MyViewHolder extends RecyclerView.ViewHolder {
 
-        public TextView title, count;
-        public ImageView thumbnail, overflow;
+        TextView title, count;
+        ImageView thumbnail, overflow;
 
-        public MyViewHolder(View itemView) {
+        MyViewHolder(View itemView) {
             super(itemView);
             title = (TextView) itemView.findViewById(R.id.title);
             count = (TextView) itemView.findViewById(R.id.count);
